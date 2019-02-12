@@ -1,0 +1,54 @@
+.btn-new {
+    border: 1px solid #333;
+    display: inline-block;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #000;
+    float: right;
+}
+.btn-new:hover {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3); /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+    color: #a00;
+   }
+.btn-del{
+	width: 100%;
+    display: block;
+    text-align: center;
+}
+.content {
+	width: 70%;
+	margin: auto;
+	padding: 50px;
+    background-color: #ececec;
+}
+.content>table {
+	width: 100%;
+	border-spacing: 0;
+    border-collapse: collapse;
+}
+.content>table th{
+	background-color: #b7b7b7;
+}
+.content>table tr:nth-child(2n+1){
+	background-color: #d6d6d6;
+}
+.content input, .content select{
+	width: 100%;
+	margin: 10px 0px;
+}
+table td, th{
+	border: 1px solid #949494;
+}
+.taskbook-title {
+	float: left;
+}
+.taskbook-title h1{
+	margin: 0px;
+}
+.taskbook-btn{
+	overflow: auto;
+}
+.taskbook-panel{
+	margin: 10px 0px;
+}
