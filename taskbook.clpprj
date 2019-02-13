@@ -11,22 +11,24 @@
  <removed value=";"/>
  <added value=""/>
  <lastopfiles>
-  <file name="D:\OSPanel\domains\taskbook\config\database.php"/>
   <file name="D:\OSPanel\domains\taskbook\resources\views\taskform.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\resources\views\tasks.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\routes\web.php"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\TaskController.php"/>
-  <file name="D:\OSPanel\domains\taskbook\public\css\style.css"/>
-  <file name="D:\OSPanel\domains\taskbook\app\models\Task.php"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\layouts\app.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\public\js\script.js"/>
-  <file name="D:\OSPanel\domains\taskbook\config\database.php"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\TasksFilter.php"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\QueryFilter.php"/>
+  <file name="D:\OSPanel\domains\taskbook\config\app.php"/>
   <file name="D:\OSPanel\domains\taskbook\resources\views\taskform.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\resources\views\tasks.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\routes\web.php"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\TaskController.php"/>
-  <file name="D:\OSPanel\domains\taskbook\public\css\style.css"/>
-  <file name="D:\OSPanel\domains\taskbook\app\models\Task.php"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\layouts\app.blade.php"/>
   <file name="D:\OSPanel\domains\taskbook\public\js\script.js"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\TasksFilter.php"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\QueryFilter.php"/>
+  <file name="D:\OSPanel\domains\taskbook\config\app.php"/>
   <lastactivefile name=""/>
  </lastopfiles>
  <errors version="1.3">
@@ -75,69 +77,69 @@
  <cakedata/>
  <dplmenupath/>
  <laravael>
-  <facade name="app" class="App"/>
-  <facade name="auth" class="Auth"/>
-  <facade name="view" class="Blade"/>
-  <facade name="cache" class="Cache"/>
-  <facade name="config" class="Config"/>
-  <facade name="cookie" class="Cookie"/>
-  <facade name="encrypter" class="Crypt"/>
-  <facade name="db" class="DB"/>
-  <facade name="events" class="Event"/>
-  <facade name="Facade does not implement getFacadeAccessor method." class="Facade"/>
-  <facade name="files" class="File"/>
-  <facade name="hash" class="Hash"/>
-  <facade name="request" class="Input"/>
-  <facade name="translator" class="Lang"/>
-  <facade name="log" class="Log"/>
-  <facade name="mailer" class="Mail"/>
-  <facade name="auth.password" class="Password"/>
-  <facade name="queue" class="Queue"/>
-  <facade name="redirect" class="Redirect"/>
-  <facade name="redis" class="Redis"/>
-  <facade name="request" class="Request"/>
-  <facade name="router" class="Route"/>
-  <facade name="db" class="Schema"/>
-  <facade name="session" class="Session"/>
-  <facade name="filesystem" class="Storage"/>
-  <facade name="url" class="URL"/>
-  <facade name="validator" class="Validator"/>
-  <facade name="view" class="View"/>
+  <facade class="App" name="app"/>
+  <facade class="Auth" name="auth"/>
+  <facade class="Blade" name="view"/>
+  <facade class="Cache" name="cache"/>
+  <facade class="Config" name="config"/>
+  <facade class="Cookie" name="cookie"/>
+  <facade class="Crypt" name="encrypter"/>
+  <facade class="DB" name="db"/>
+  <facade class="Event" name="events"/>
+  <facade class="Facade" name="Facade does not implement getFacadeAccessor method."/>
+  <facade class="File" name="files"/>
+  <facade class="Hash" name="hash"/>
+  <facade class="Input" name="request"/>
+  <facade class="Lang" name="translator"/>
+  <facade class="Log" name="log"/>
+  <facade class="Mail" name="mailer"/>
+  <facade class="Password" name="auth.password"/>
+  <facade class="Queue" name="queue"/>
+  <facade class="Redirect" name="redirect"/>
+  <facade class="Redis" name="redis"/>
+  <facade class="Request" name="request"/>
+  <facade class="Route" name="router"/>
+  <facade class="Schema" name="db"/>
+  <facade class="Session" name="session"/>
+  <facade class="Storage" name="filesystem"/>
+  <facade class="URL" name="url"/>
+  <facade class="Validator" name="validator"/>
+  <facade class="View" name="view"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\laravel\framework\src\Illuminate\Cache\CacheServiceProvider.php">
-   <type name="memcached.connector" class="MemcachedConnector"/>
+   <type class="MemcachedConnector" name="memcached.connector"/>
   </file>
   <file name="D:\OSPanel\domains\taskbook\vendor\laravel\framework\src\Illuminate\Filesystem\FilesystemServiceProvider.php">
-   <type name="files" class="Filesystem"/>
+   <type class="Filesystem" name="files"/>
   </file>
   <file name="D:\OSPanel\domains\taskbook\vendor\laravel\framework\src\Illuminate\Foundation\Providers\ArtisanServiceProvider.php">
-   <type name="command.auth.make" class="AuthMakeCommand"/>
-   <type name="command.auth.resets.clear" class="ClearResetsCommand"/>
-   <type name="command.clear-compiled" class="ClearCompiledCommand"/>
-   <type name="command.down" class="DownCommand"/>
-   <type name="command.environment" class="EnvironmentCommand"/>
-   <type name="command.event.generate" class="EventGenerateCommand"/>
-   <type name="command.key.generate" class="KeyGenerateCommand"/>
-   <type name="command.migrate.fresh" class="MigrateFreshCommand"/>
-   <type name="command.migrate.refresh" class="MigrateRefreshCommand"/>
-   <type name="command.optimize" class="OptimizeCommand"/>
-   <type name="command.optimize.clear" class="OptimizeClearCommand"/>
-   <type name="command.package.discover" class="PackageDiscoverCommand"/>
-   <type name="command.preset" class="PresetCommand"/>
-   <type name="command.queue.failed" class="ListFailedQueueCommand"/>
-   <type name="command.queue.flush" class="FlushFailedQueueCommand"/>
-   <type name="command.queue.forget" class="ForgetFailedQueueCommand"/>
-   <type name="command.queue.restart" class="QueueRestartCommand"/>
-   <type name="command.queue.retry" class="QueueRetryCommand"/>
-   <type name="command.serve" class="ServeCommand"/>
-   <type name="command.storage.link" class="StorageLinkCommand"/>
-   <type name="command.up" class="UpCommand"/>
-   <type name="command.view.cache" class="ViewCacheCommand"/>
+   <type class="AuthMakeCommand" name="command.auth.make"/>
+   <type class="ClearResetsCommand" name="command.auth.resets.clear"/>
+   <type class="ClearCompiledCommand" name="command.clear-compiled"/>
+   <type class="DownCommand" name="command.down"/>
+   <type class="EnvironmentCommand" name="command.environment"/>
+   <type class="EventGenerateCommand" name="command.event.generate"/>
+   <type class="KeyGenerateCommand" name="command.key.generate"/>
+   <type class="MigrateFreshCommand" name="command.migrate.fresh"/>
+   <type class="MigrateRefreshCommand" name="command.migrate.refresh"/>
+   <type class="OptimizeCommand" name="command.optimize"/>
+   <type class="OptimizeClearCommand" name="command.optimize.clear"/>
+   <type class="PackageDiscoverCommand" name="command.package.discover"/>
+   <type class="PresetCommand" name="command.preset"/>
+   <type class="ListFailedQueueCommand" name="command.queue.failed"/>
+   <type class="FlushFailedQueueCommand" name="command.queue.flush"/>
+   <type class="ForgetFailedQueueCommand" name="command.queue.forget"/>
+   <type class="QueueRestartCommand" name="command.queue.restart"/>
+   <type class="QueueRetryCommand" name="command.queue.retry"/>
+   <type class="ServeCommand" name="command.serve"/>
+   <type class="StorageLinkCommand" name="command.storage.link"/>
+   <type class="UpCommand" name="command.up"/>
+   <type class="ViewCacheCommand" name="command.view.cache"/>
   </file>
   <file name="D:\OSPanel\domains\taskbook\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php">
-   <type name="view.engine.resolver" class="EngineResolver"/>
+   <type class="EngineResolver" name="view.engine.resolver"/>
   </file>
   <file name="D:\OSPanel\domains\taskbook\vendor\laravel\tinker\src\TinkerServiceProvider.php">
-   <type name="command.tinker" class="TinkerCommand"/>
+   <type class="TinkerCommand" name="command.tinker"/>
   </file>
  </laravael>
  <smartyassings/>
@@ -6374,20 +6376,20 @@
   <file name="D:\OSPanel\domains\taskbook\vendor\doctrine\inflector\lib\Doctrine\Common\Inflector\Inflector.php" crc="1549902191583"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\dnoegel\php-xdg-base-dir\tests\XdgTest.php" crc="1549902205393"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\dnoegel\php-xdg-base-dir\src\Xdg.php" crc="1549902205391"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\ClassLoader.php" crc="1549908913784"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_static.php" crc="1549908913782"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_real.php" crc="1549908913784"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_psr4.php" crc="1549908913756"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_namespaces.php" crc="1549908913755"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_files.php" crc="1549908913758"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_classmap.php" crc="1549908913757"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\ClassLoader.php" crc="1549990548749"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_static.php" crc="1549990548747"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_real.php" crc="1549990548749"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_psr4.php" crc="1549990548711"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_namespaces.php" crc="1549990548706"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_files.php" crc="1549990548722"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\composer\autoload_classmap.php" crc="1549990548721"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\src\RequestContextProvider.php" crc="1549902206597"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\src\DumpServerServiceProvider.php" crc="1549902206595"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\src\DumpServerCommand.php" crc="1549902206594"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\src\Dumper.php" crc="1549902206596"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\config\config.php" crc="1549902206588"/>
   <file name="D:\OSPanel\domains\taskbook\vendor\beyondcode\laravel-dump-server\helpers.php" crc="1549902206590"/>
-  <file name="D:\OSPanel\domains\taskbook\vendor\autoload.php" crc="1549908913783"/>
+  <file name="D:\OSPanel\domains\taskbook\vendor\autoload.php" crc="1549990548748"/>
   <file name="D:\OSPanel\domains\taskbook\tests\Unit\ExampleTest.php" crc="1549902062309"/>
   <file name="D:\OSPanel\domains\taskbook\tests\Feature\TaskTest.php" crc="1549967064434"/>
   <file name="D:\OSPanel\domains\taskbook\tests\Feature\ExampleTest.php" crc="1549902062308"/>
@@ -6396,19 +6398,27 @@
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\fbb51a81468a3aa549436e99878788dfe49406ec.php" crc="1549912544972"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\f7275e583e6d7efa80e5d5e4c9f1441b521fd079.php" crc="1549961294329"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\ba9888d9e0025bb4af81e019f768075b065fc23f.php" crc="1549917401408"/>
-  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\a0002b06308e12325952a8f4381dcba71fdd8140.php" crc="1549967940775"/>
+  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\a0002b06308e12325952a8f4381dcba71fdd8140.php" crc="1549992501053"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\9db2bd9856e77d1e5e3864f7142dd07307ca72a7.php" crc="1549903028737"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\8d374126fb41ef2666db6fa0d824dcbd7c412533.php" crc="1549902429827"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\8cd683da030f88e052018590500958930d5cbdd5.php" crc="1549912544968"/>
-  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\713950852dd48451c8658cce69e93727b532b013.php" crc="1549959120348"/>
+  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\7337f8a72e13ad33364b1f1334ef22f833c157a8.php" crc="1549990210944"/>
+  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\713950852dd48451c8658cce69e93727b532b013.php" crc="1549990178573"/>
+  <file name="D:\OSPanel\domains\taskbook\storage\framework\views\452bc6f582f1abcc244b0bc77259e3eff495219e.php" crc="1549990237067"/>
   <file name="D:\OSPanel\domains\taskbook\storage\framework\views\097aebcc6064bb4d6b6e057d010d9dd19f83e5b6.php" crc="1549965333961"/>
-  <file name="D:\OSPanel\domains\taskbook\routes\web.php" crc="1549960415530"/>
+  <file name="D:\OSPanel\domains\taskbook\routes\web.php" crc="1549993228677"/>
   <file name="D:\OSPanel\domains\taskbook\routes\console.php" crc="1549902062289"/>
   <file name="D:\OSPanel\domains\taskbook\routes\channels.php" crc="1549902062288"/>
   <file name="D:\OSPanel\domains\taskbook\routes\api.php" crc="1549902062288"/>
-  <file name="D:\OSPanel\domains\taskbook\resources\views\layouts\app.blade.php" crc="1549959108433"/>
-  <file name="D:\OSPanel\domains\taskbook\resources\views\tasks.blade.php" crc="1549967885146"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\vendor\pagination\simple-default.blade.php" crc="1549990042054"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\vendor\pagination\simple-bootstrap-4.blade.php" crc="1549990042053"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\vendor\pagination\semantic-ui.blade.php" crc="1549990042051"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\vendor\pagination\default.blade.php" crc="1549990042049"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\vendor\pagination\bootstrap-4.blade.php" crc="1549990042047"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\layouts\app.blade.php" crc="1549990175152"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\tasks.blade.php" crc="1549992492108"/>
   <file name="D:\OSPanel\domains\taskbook\resources\views\taskform.blade.php" crc="1549959167306"/>
+  <file name="D:\OSPanel\domains\taskbook\resources\views\pagination.blade.php" crc="1549990208728"/>
   <file name="D:\OSPanel\domains\taskbook\resources\sass\app.scss" crc="1549902062285"/>
   <file name="D:\OSPanel\domains\taskbook\resources\sass\_variables.scss" crc="1549902062285"/>
   <file name="D:\OSPanel\domains\taskbook\resources\lang\en\validation.php" crc="1549907882471"/>
@@ -6417,17 +6427,28 @@
   <file name="D:\OSPanel\domains\taskbook\resources\lang\en\auth.php" crc="1549902062260"/>
   <file name="D:\OSPanel\domains\taskbook\resources\js\bootstrap.js" crc="1549902062256"/>
   <file name="D:\OSPanel\domains\taskbook\resources\js\app.js" crc="1549902062256"/>
-  <file name="D:\OSPanel\domains\taskbook\public\js\script.js" crc="1549967938074"/>
+  <file name="D:\OSPanel\domains\taskbook\public\js\script.js" crc="1549986738603"/>
   <file name="D:\OSPanel\domains\taskbook\public\js\app.js" crc="1549902062245"/>
-  <file name="D:\OSPanel\domains\taskbook\public\css\style.css" crc="1549915197520"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\helpers\jquery.fancybox-thumbs.js" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\helpers\jquery.fancybox-thumbs.css" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\helpers\jquery.fancybox-media.js" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\helpers\jquery.fancybox-buttons.js" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\helpers\jquery.fancybox-buttons.css" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\style.css" crc="1431262896000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\jquery.min.js" crc="1431262612000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\jquery.fancybox.pack.js" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\jquery.fancybox.js" crc="1350989086000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\fancybox\jquery.fancybox.css" crc="1410786386000"/>
+  <file name="D:\OSPanel\domains\taskbook\public\css\style.css" crc="1549968068707"/>
   <file name="D:\OSPanel\domains\taskbook\public\css\app.css" crc="1549902062239"/>
   <file name="D:\OSPanel\domains\taskbook\public\robots.txt" crc="1549902062246"/>
   <file name="D:\OSPanel\domains\taskbook\public\index.php" crc="1549902062240"/>
   <file name="D:\OSPanel\domains\taskbook\public\.htaccess" crc="1549902062237"/>
+  <file name="D:\OSPanel\domains\taskbook\database\seeds\TasksTableSeeder.php" crc="1549991808496"/>
   <file name="D:\OSPanel\domains\taskbook\database\seeds\DatabaseSeeder.php" crc="1549902062234"/>
   <file name="D:\OSPanel\domains\taskbook\database\migrations\2019_02_11_181505_create_tasks_table.php" crc="1549909150679"/>
   <file name="D:\OSPanel\domains\taskbook\database\factories\UserFactory.php" crc="1549902062231"/>
-  <file name="D:\OSPanel\domains\taskbook\database\factories\TaskFactory.php" crc="1549966163490"/>
+  <file name="D:\OSPanel\domains\taskbook\database\factories\TaskFactory.php" crc="1549991671308"/>
   <file name="D:\OSPanel\domains\taskbook\config\view.php" crc="1549902062228"/>
   <file name="D:\OSPanel\domains\taskbook\config\session.php" crc="1549902062227"/>
   <file name="D:\OSPanel\domains\taskbook\config\services.php" crc="1549902062226"/>
@@ -6441,8 +6462,8 @@
   <file name="D:\OSPanel\domains\taskbook\config\broadcasting.php" crc="1549902062220"/>
   <file name="D:\OSPanel\domains\taskbook\config\auth.php" crc="1549902062219"/>
   <file name="D:\OSPanel\domains\taskbook\config\app.php" crc="1549905588367"/>
-  <file name="D:\OSPanel\domains\taskbook\bootstrap\cache\services.php" crc="1549908914499"/>
-  <file name="D:\OSPanel\domains\taskbook\bootstrap\cache\packages.php" crc="1549908914690"/>
+  <file name="D:\OSPanel\domains\taskbook\bootstrap\cache\services.php" crc="1549990549479"/>
+  <file name="D:\OSPanel\domains\taskbook\bootstrap\cache\packages.php" crc="1549990549669"/>
   <file name="D:\OSPanel\domains\taskbook\bootstrap\app.php" crc="1549902062214"/>
   <file name="D:\OSPanel\domains\taskbook\app\Providers\RouteServiceProvider.php" crc="1549902062211"/>
   <file name="D:\OSPanel\domains\taskbook\app\Providers\EventServiceProvider.php" crc="1549902062210"/>
@@ -6450,7 +6471,7 @@
   <file name="D:\OSPanel\domains\taskbook\app\Providers\AuthServiceProvider.php" crc="1549902062209"/>
   <file name="D:\OSPanel\domains\taskbook\app\Providers\AppServiceProvider.php" crc="1549902062208"/>
   <file name="D:\OSPanel\domains\taskbook\app\models\User.php" crc="1549902062211"/>
-  <file name="D:\OSPanel\domains\taskbook\app\models\Task.php" crc="1549962625666"/>
+  <file name="D:\OSPanel\domains\taskbook\app\models\Task.php" crc="1549986426052"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Middleware\VerifyCsrfToken.php" crc="1549902062207"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Middleware\TrustProxies.php" crc="1549902062206"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Middleware\TrimStrings.php" crc="1549902062205"/>
@@ -6463,12 +6484,13 @@
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\Auth\RegisterController.php" crc="1549902062196"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\Auth\LoginController.php" crc="1549902062195"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\Auth\ForgotPasswordController.php" crc="1549902062194"/>
-  <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\TaskController.php" crc="1549967656387"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\TaskController.php" crc="1549993215444"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Controllers\Controller.php" crc="1549902062199"/>
   <file name="D:\OSPanel\domains\taskbook\app\Http\Kernel.php" crc="1549902062200"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\TasksFilter.php" crc="1549986004408"/>
+  <file name="D:\OSPanel\domains\taskbook\app\Filters\QueryFilter.php" crc="1549992720124"/>
   <file name="D:\OSPanel\domains\taskbook\app\Exceptions\Handler.php" crc="1549902062189"/>
   <file name="D:\OSPanel\domains\taskbook\app\Console\Kernel.php" crc="1549902062186"/>
-  <file name="D:\OSPanel\domains\taskbook\app\Task.php" crc="1549902881486"/>
   <file name="D:\OSPanel\domains\taskbook\webpack.mix.js" crc="1549902062310"/>
   <file name="D:\OSPanel\domains\taskbook\server.php" crc="1549902062291"/>
   <file name="D:\OSPanel\domains\taskbook\phpunit.xml" crc="1549902062236"/>

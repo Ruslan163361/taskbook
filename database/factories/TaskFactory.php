@@ -15,8 +15,8 @@ use Faker\Generator as Faker;
 $factory->define(App\Task::class, function (Faker $faker) {
     return [
         'task' => $faker->name,
-        'autor' => '44444',
-        'status' => 1,
+        'autor' => $faker->name,
+        'status' => random_init(1,2,3,4),
     ];
 });
 

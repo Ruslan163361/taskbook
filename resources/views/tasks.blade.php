@@ -30,5 +30,5 @@
 		</tr>
 	@endforeach
 	</table>
-	<?php echo $tasks->appends(array('autor' => request()->autor,'status'=>request()->status))->links();?>
+	{!! $tasks->appends(array('autor' => request()->autor,'status'=>request()->status))->links('pagination')!!}
 @endsection

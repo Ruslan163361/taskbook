@@ -12,6 +12,7 @@
 		<script type="text/javascript" src="{{ asset('fancybox/jquery.fancybox.js') }}"></script>
 		<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 		<script src="{{ asset('js/script.js') }}"></script>
+		<link rel="stylesheet" type="text/css" href="http://www.expertphp.in/css/bootstrap.css">
 
     </head>
     <body>

@@ -15,8 +15,10 @@ abstract class QueryFilter
 	public function apply() 
 	{
 		foreach ($this->filters() as $filter=>$value) {
-			if(method_exists($this, $filter)) {
-				if($value) $this->$filter($value);
+			if($value) {
+				if(method_exists($this, $filter)) {
+					$this->$filter($value);
+				}
 			}
 		}
 		return $this->builder;

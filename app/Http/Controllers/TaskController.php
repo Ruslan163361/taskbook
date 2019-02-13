@@ -32,14 +32,12 @@ class TaskController extends Controller
     {
         $paginate = 10;
         
-        $tasks_query = DB::table('tasks');
-        
-        $tasks = (new TasksFilter($tasks_query, $request))->apply()->paginate($paginate);
-        $tasks_autor = $tasks_query->select('autor', DB::raw('count(*) as total'));
+        $tasks = (new TasksFilter(DB::table('tasks'), $request))->apply()->paginate($paginate);
+        $tasks_autor = DB::table('tasks')->select('autor', DB::raw('count(*) as total'));
         $flt_params['autor'] = (new TasksFilter($tasks_autor, $request))->apply()->groupBy('autor')->get();
-        $tasks_status = $tasks_query->select('status', DB::raw('count(*) as total'));
+        $tasks_status = DB::table('tasks')->select('status', DB::raw('count(*) as total'));
         $flt_params['status'] = (new TasksFilter($tasks_status, $request))->apply()->groupBy('status')->get();
-        
+        //dd($flt_params);
         return view('tasks')->with([
 	      'tasks' => $tasks,
 	      'flt_params' => $flt_params
